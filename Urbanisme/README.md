@@ -2,7 +2,7 @@
 Prescriptions ponctuelles des documents d'urbanisme numérisés - CNIG 2014
 
 SLD réalisés selon la proposition de symbolisation des PLU présente sur le site du [CNIG](http://cnig.gouv.fr/?page_id=2732)
-Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du Pays d'Aubigné](http://www.pays-aubigne.fr/decouvrir-le-pays-daubigne/cartographie/plu/)
+Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du Val d'Ille - Aubigné](http://www2.valdille-aubigne.fr/)
 
 ![plu_prescriptions_ponctuelles](https://cloud.githubusercontent.com/assets/22056698/18439049/0e44e706-7904-11e6-8c3d-a6b2137c9cb4.png)
 
@@ -10,7 +10,7 @@ Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du 
 Prescriptions surfaciques des documents d'urbanisme numérisés - CNIG 2014
 
 SLD réalisés selon la proposition de symbolisation des PLU présente sur le site du [CNIG](http://cnig.gouv.fr/?page_id=2732)
-Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du Pays d'Aubigné](http://www.pays-aubigne.fr/decouvrir-le-pays-daubigne/cartographie/plu/)
+Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du Val d'Ille - Aubigné](http://www2.valdille-aubigne.fr/)
 
 ![plu_prescriptions_surfaciques](https://cloud.githubusercontent.com/assets/22056698/18439247/dc8f0146-7904-11e6-9ff2-1c06772ba689.png)
 
@@ -18,7 +18,7 @@ Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du 
 Prescriptions linéaires des documents d'urbanisme numérisés - CNIG 2014
 
 SLD réalisés selon la proposition de symbolisation des PLU présente sur le site du [CNIG](http://cnig.gouv.fr/?page_id=2732)
-Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du Pays d'Aubigné](http://www.pays-aubigne.fr/decouvrir-le-pays-daubigne/cartographie/plu/)
+Réalisation pour [GéoBretagne](http://geobretagne.bzh) : Tanguy Jacq - [CC du Val d'Ille - Aubigné](http://www2.valdille-aubigne.fr/)
 
 ![plu_prescriptions_lineaires](https://cloud.githubusercontent.com/assets/22056698/18439069/1af4301a-7904-11e6-9240-2948ae1d2d0f.png)
 
