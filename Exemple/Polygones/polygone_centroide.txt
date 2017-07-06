@@ -1,0 +1,5 @@
+---------------polygone_centroide.sld------------------
+Ce style permet d'afficher à la fois le polygone et aussi le centroïde de ce polygone. Il est fort utile pour afficher à l'échelle régionale des petits polygones.
+
+Exemple ici sur la couche recensement du patrimoine en Bretagne.
+Vous pouvez visualiser ce style ici : https://geobretagne.fr/mapfishapp/map/0c9faf6a6c0e10c1cca5b7931c8e25a4

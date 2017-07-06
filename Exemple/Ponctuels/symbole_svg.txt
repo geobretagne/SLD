@@ -1,0 +1,5 @@
+---------------symbole_svg.sld------------------
+Ce style permet d'afficher un symbole svg. On a ajouté un rond plus grand transparent pour permettre une meilleure intérrogation de la couche.
+
+Exemple ici avec les bibliothèques d'Ille et Vilaine
+Vous pouvez visualiser ce style ici : https://geobretagne.fr/m/?x=-198651&y=6120213&z=9&lb=0&layers=cd35%3Abibliotheques_35&title=Les+biblioth%C3%A8ques+en+Ille-et-Vilaine

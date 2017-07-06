@@ -1,0 +1,5 @@
+---------------bathymetrie_contour.sld------------------
+Ce style permet de symboliser un fichier raster contenant un champ numérique par un contour.
+
+Exemple ici avec une couche de bathymétrie.
+Vous pouvez visualiser ce style ici : https://geobretagne.fr/mapfishapp/map/7594c7523af47afddb1dc1a6acfe548b
