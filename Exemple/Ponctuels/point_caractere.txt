@@ -1,0 +1,5 @@
+---------------point_caractere.sld------------------
+Ce style permet d'afficher un symbole ponctuel composé d'un rond avec un symbole caractère dedans.
+
+Exemple ici avec un point rouge et un caractère S à l'intérieur.
+Vous pouvez visualiser ce style ici : https://geobretagne.fr/mapfishapp/map/46ea0a12a1fbbf9031c9dfedb866a825
