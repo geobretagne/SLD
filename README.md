@@ -6,3 +6,4 @@ Ce dépôt à vocation à la fois d'héberger des SLD servant de références à
 /Ubanisme : Styles officiels du pôle métier urbanisme à réutiliser 
 
 /Exemple : répertoire ayant vocation à héberger des SLD complexes créés par des partenaires.
+Chaque exemple est accompagné d'un txt décrivant le style et un lien vers le visualiseur pour le voir à l'oeuvre.
