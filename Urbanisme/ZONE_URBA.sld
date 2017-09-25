@@ -1423,7 +1423,7 @@
           </ogc:PropertyIsEqualTo>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>DESTDOMI</ogc:PropertyName>
-            <ogc:Literal>01</ogc:Literal>
+            <ogc:Literal>04</ogc:Literal>
           </ogc:PropertyIsEqualTo>
         </ogc:And>
       </ogc:Filter>
