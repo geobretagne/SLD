@@ -188,7 +188,7 @@ Réalisation pour GéoBretagne : T. Jacq - CC du Pays d'Aubigné
     
     	 
   <Rule>
-      <Title>Orientation d'aménagement</Title>
+      <Title>Trame verte et bleue</Title>
       <ogc:Filter>
               <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>TYPEPSC</ogc:PropertyName>
