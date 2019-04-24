@@ -9,7 +9,7 @@ Les styles créé dans le cadre de pôle métier sont stockés dans le namespace
 
 /Eau : styles officiels du pôle métier eau à réutiliser
 
-/OCS : styles utilisés pour le démonstrateur OCS sur le Morbihan (nomenclaure )
+/OCS : styles utilisés pour le démonstrateur OCS (nomenclature Morbihan)
 
 /Exemple : répertoire ayant vocation à héberger des SLD complexes créés par des partenaires.
 Chaque exemple est accompagné d'un txt décrivant le style et un lien vers le visualiseur pour le voir à l'oeuvre.
