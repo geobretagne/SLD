@@ -6,251 +6,15 @@
       <Name>OCS_couverture</Name>
       <FeatureTypeStyle>
         <Rule>
-          <Name>Sans végétation</Name>
-            <Title>Sans végétation</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fd6270</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Avec végétation</Name>
-            <Title>Avec végétation</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>100000</MinScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#96de41</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Surfaces anthropisées</Name>
-            <Title>Surfaces anthropisées</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1?1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fd6270</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Surfaces naturelles</Name>
-            <Title>Surfaces naturelles</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1?2%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#cccccc</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Végétation ligneuse</Name>
-            <Title>Végétation ligneuse</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2?1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#96de41</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Végétation non ligneuse</Name>
-            <Title>Végétation non ligneuse</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2?2%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>50000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ccf24d</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Zones imperméables</Name>
-            <Title>Zones imperméables</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1?1?1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#fd6270</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Zones perméables</Name>
-            <Title>Zones perméables</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1?1?2%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ffff99</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Sols nus</Name>
-            <Title>Sols nus</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1?2?1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#cccccc</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Surfaces d'eau</Name>
-            <Title>Surfaces d'eau</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS1?2?2%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#00ccf2</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Formations arborées</Name>
-            <Title>Formations arborées</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2?1?1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#96de41</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Formations arbustives et sous-arbrisseaux</Name>
-            <Title>Formations arbustives et sous-arbrisseaux</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2?1?2%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#ad6659</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Autres formations ligneuses</Name>
-            <Title>Autres formations ligneuses</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2?1?3%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#e68000</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Formations herbacées</Name>
-            <Title>Formations herbacées</Title>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsLike wildCard="%" singleChar="?" escape="!">
-              <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2?2?1%</ogc:Literal>
-            </ogc:PropertyIsLike>
-          </ogc:Filter>
-          <MinScaleDenominator>10000</MinScaleDenominator>
-          <MaxScaleDenominator>50000</MaxScaleDenominator>
-          <PolygonSymbolizer>
-            <Fill>
-              <CssParameter name="fill">#a6ff8a</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Name>Zones bâties</Name>
-            <Title>Zones bâties</Title>
+          <Name>Zones bÃ¢ties</Name>
+            <Title>Zones bÃ¢ties</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS1.1.1.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fd6270</CssParameter>
@@ -264,15 +28,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Zones non bâties</Name>
-            <Title>Zones non bâties</Title>
+          <Name>Zones non bÃ¢ties</Name>
+            <Title>Zones non bÃ¢ties</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS1.1.1.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f4afa7</CssParameter>
@@ -286,15 +50,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Zones à matériaux minéraux- pierre-terre</Name>
-            <Title>Zones à matériaux minéraux- pierre-terre</Title>
+          <Name>Zones Ã  matÃ©riaux minÃ©raux- pierre-terre</Name>
+            <Title>Zones Ã  matÃ©riaux minÃ©raux- pierre-terre</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS1.1.2.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dad6bf</CssParameter>
@@ -308,15 +72,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Zones à autres matériaux composites</Name>
-            <Title>Zones à autres matériaux composites</Title>
+          <Name>Zones Ã  autres matÃ©riaux composites</Name>
+            <Title>Zones Ã  autres matÃ©riaux composites</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS1.1.2.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b6b3ff</CssParameter>
@@ -338,7 +102,7 @@
               <ogc:Literal>CS1.2.1.0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dad6d2</CssParameter>
@@ -388,7 +152,7 @@
               <ogc:Literal>CS1.2.1.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f4e8ba</CssParameter>
@@ -410,7 +174,7 @@
               <ogc:Literal>CS1.2.1.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b0968a</CssParameter>
@@ -432,7 +196,7 @@
               <ogc:Literal>CS1.2.1.3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#96966e</CssParameter>
@@ -454,7 +218,7 @@
               <ogc:Literal>CS1.2.2.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7dc5ff</CssParameter>
@@ -476,7 +240,7 @@
               <ogc:Literal>CS1.2.2.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#009cd6</CssParameter>
@@ -490,15 +254,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Névés</Name>
-            <Title>Névés</Title>
+          <Name>NÃ©vÃ©s</Name>
+            <Title>NÃ©vÃ©s</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS1.2.3.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#beffe8</CssParameter>
@@ -520,7 +284,7 @@
               <ogc:Literal>CS1.2.3.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dbf2f7</CssParameter>
@@ -542,7 +306,7 @@
               <ogc:Literal>CS2.1.1.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#96de41</CssParameter>
@@ -556,15 +320,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Peuplements de conifères</Name>
-            <Title>Peuplements de conifères</Title>
+          <Name>Peuplements de conifÃ¨res</Name>
+            <Title>Peuplements de conifÃ¨res</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS2.1.1.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#5c7326</CssParameter>
@@ -586,7 +350,7 @@
               <ogc:Literal>CS2.1.1.3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#7dbd4a</CssParameter>
@@ -608,7 +372,7 @@
               <ogc:Literal>CS2.1.2.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a8a828</CssParameter>
@@ -622,15 +386,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Végétation sclérophylle</Name>
-            <Title>Végétation sclérophylle</Title>
+          <Name>VÃ©gÃ©tation sclÃ©rophylle</Name>
+            <Title>VÃ©gÃ©tation sclÃ©rophylle</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS2.1.2.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#adba8a</CssParameter>
@@ -644,15 +408,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Formations arbustives basses linéaires ou organisées</Name>
-            <Title>Formations arbustives basses linéaires ou organisées</Title>
+          <Name>Formations arbustives basses linÃ©aires ou organisÃ©es</Name>
+            <Title>Formations arbustives basses linÃ©aires ou organisÃ©es</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS2.1.2.3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ad6659</CssParameter>
@@ -666,15 +430,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Fourrés</Name>
-            <Title>Fourrés</Title>
+          <Name>FourrÃ©s</Name>
+            <Title>FourrÃ©s</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
-              <ogc:Literal>CS2.1.2.5</ogc:Literal>
+              <ogc:Literal>CS2.1.2.4</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#adad59</CssParameter>
@@ -716,7 +480,7 @@
               <ogc:Literal>CS2.1.3.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#aa66cd</CssParameter>
@@ -738,7 +502,7 @@
               <ogc:Literal>CS2.2.1.1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a6ff8a</CssParameter>
@@ -760,7 +524,7 @@
               <ogc:Literal>CS2.2.1.2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#d7ffb5</CssParameter>
@@ -782,7 +546,7 @@
               <ogc:Literal>CS2.2.1.3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4fff67</CssParameter>
@@ -804,7 +568,7 @@
               <ogc:Literal>CS2.2.1.4</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff07a</CssParameter>
@@ -818,15 +582,15 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Autres formations herbacées</Name>
-            <Title>Autres formations herbacées</Title>
+          <Name>Autres formations herbacÃ©es</Name>
+            <Title>Autres formations herbacÃ©es</Title>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>couverture</ogc:PropertyName>
               <ogc:Literal>CS2.2.1.5</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
+          <MaxScaleDenominator>100000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#fff07a</CssParameter>
