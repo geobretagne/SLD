@@ -1,9 +1,9 @@
 # SLD
-Dépôt GéoBretagne de SLD (Style Layer Descriptor)
+Dépôt GéoBretagne de styles SLD (Style Layer Descriptor)
 
-Ce dépôt à vocation à la fois d'héberger des SLD servant de références à utiliser par les autres partenaires (exemple urbanisme) mais aussi d'héberger des exemples de SLD complexes adaptables pour tout partenaire qui le souhaite.
+Ce dépôt héberge des SLD servant de références pour les partenaires (exemple urbanisme) mais aussi des exemples de SLD complexes adaptables.
 
-Les styles créé dans le cadre de pôle métier sont stockés dans le namespace common sur GeoServer.
+Les styles créés dans le cadre de pôle métier sont stockés dans le namespace common sur GeoServer.
 
 /Ubanisme : styles officiels du pôle métier urbanisme à réutiliser 
 
